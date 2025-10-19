@@ -28,7 +28,9 @@ while True:
     low_range4 = random_num - 15
     high_range4 = random_num + 15
     
-    
+    while guess < 0 or guess > high:
+        guess = int(input(f'Number must be above {low - 1} and below {high} (0 to quit): '))
+        
     if guess == 0:
         money += 2500
         break
@@ -57,9 +59,6 @@ while True:
         money += 10000
         loss_gain = 10000
         won_lost = 'won'
-        
-    elif guess < 0 or guess > {high}:
-        guess = int(input(f'Number must be above {low - 1} and below {high} (0 to quit): '))
         
     else:
         money -= 2500
