@@ -58,7 +58,7 @@ while True:
         loss_gain = 10000
         won_lost = 'won'
         
-    elif guess < 0 or guess > 100:
+    elif guess < 0 or guess > {high}:
         guess = int(input(f'Number must be above {low - 1} and below {high} (0 to quit): '))
         
     else:
