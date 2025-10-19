@@ -1,4 +1,5 @@
 import random
+import os
 
 print("Python Number Gambling Game")
 print('-----------------------------------------------------------\n') 
@@ -9,6 +10,8 @@ money = 0
 
 while True:
     guess = int(input(f'\nGuess a random number between {low} - {high} (0 to quit): '))
+    os.system('cls' if os.name == 'nt' else 'clear') # Clear Terminal
+    
     money -= 2500
     random_num = random.randint(low, high)
     off = str(guess - random_num)

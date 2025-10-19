@@ -4,6 +4,7 @@ This game lets you choose a random number between 1 and 100 (modify the code if 
 
 Btw don't gamble with real money stoopid, this is just a game I used to test out the random module.
 
+Also for some reason, you have to scroll up a bit when using the VS Code Terminal to see the full output if you want to remove that or just straight up remove how it clears the terminal make sure to comment out line 13.
 
 ## License
 
