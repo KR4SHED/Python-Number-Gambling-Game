@@ -1,6 +1,6 @@
 # Python Number Gambling Game
 
-This game lets you choose a random number between 1 and 200 (modify the code if you like). It also gives you FAKE money for getting within a range or hitting the number.
+This game lets you choose a random number between 1 and 100 (modify the code if you like). It also gives you FAKE money for getting within a range or hitting the number.
 
 Btw don't gamble with real money stoopid, this is just a game I used to test out the random module.
 

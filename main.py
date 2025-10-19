@@ -4,7 +4,7 @@ print("Python Number Gambling Game")
 print('-----------------------------------------------------------\n') 
 
 low = 1
-high = 200
+high = 100
 money = 0
 
 while True:
